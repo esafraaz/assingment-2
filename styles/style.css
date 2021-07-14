@@ -221,11 +221,19 @@ copy-right{
 }
 .navigation-section{ 
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 .second-part-header{
     Width: 278px;
     Height: 138px;
+}
+#main-title{
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
 }
 #header-image{
     width: 278px;
