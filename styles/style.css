@@ -257,3 +257,9 @@ Height :259.17px;
 }
 
 }
+@media screen and (max-width: 988px){
+    .grid-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
