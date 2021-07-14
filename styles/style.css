@@ -215,19 +215,21 @@ copy-right{
    here in media query for mobile. 
 ------------------------------------ */
 @media screen and (max-width: 600px){
-
+    nav{
+        height: 695px;
+        margin: 0;
+    }
 .section-menu-bar{
-   display: none;
+   display: flex;
+   flex-wrap: wrap;
 }
 .navigation-section{ 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .second-part-header{
     Width: 278px;
-    Height: 138px;
+    margin: 0;
 }
 #main-title{
     margin-top: 18px;
@@ -236,9 +238,9 @@ copy-right{
     color: white;
 }
 #header-image{
-    width: 278px;
-    height:138px;
-    margin-bottom: 86px;
+    Width:329px;
+Height :259.17px;
+    margin-bottom: 40px;
 }
 .grid-section{
     display: grid;
